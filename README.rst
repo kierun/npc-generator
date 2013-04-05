@@ -4,7 +4,17 @@ NPC Generator
 Introduction
 ------------
 
-A very generic NPC generator with lots of user defined data.
+A very generic NPC generator with lots of user defined data.  It should be:
+
+ #. Something that generates a (nearly) ready to use NPCs.
+ #. Something that generates interesting NPCs.
+ #. Something that generates intricate NPCs.
+ #. Something that is reusable between systems and settings all supported
+    by simple configurations.
+ #. Something that will help others which would include Unix, Windows, and web
+    interfaces as well as (possibly) an app and an API/library so it can be 
+    used within other projects. 
+ #. The code is in Python, the data is plain text.
 
 Example
 -------
@@ -46,6 +56,13 @@ contacts. However, this cannot last...*
 
 
 .. _`a little documentation goes a long way`: http://www.martinaspeli.net/articles/a-little-documentation-goes-a-long-way
+
+Pull requests
+-------------
+
+When you make a pull request, please make sure that all your code has unit 
+tests (100% test coverage), that it conforms to PEP8, and that it is fully 
+documented.
 
 Credits
 -------
