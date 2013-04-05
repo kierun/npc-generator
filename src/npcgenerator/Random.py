@@ -16,7 +16,8 @@ class Random(object):
         self._data = []
         if isinstance(data, str):
             with codecs.open(data, 'r', 'utf-8') as fd:
-                self._data = fd.read().splitlines()
+                for line in fd.read().splitlines():
+                    self._data.append(line.split(' ')[0])
         elif isinstance(data, list):
             self._data = data
         else:

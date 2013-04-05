@@ -173,8 +173,8 @@ class NPC(object):
     def get_new_data(self):
         """Creates new NPC data."""
         self._last_name = self._name_last.get_a_value().title()
-        self._first_name_female = self._name_first_female.get_a_value()
-        self._first_name_male = self._name_first_male.get_a_value()
+        self._first_name_female = self._name_first_female.get_a_value().title()
+        self._first_name_male = self._name_first_male.get_a_value().title()
         self._personality = self._personality_type.get_a_value()
         self._demeanor = self._demeanors.get_a_value().title()
         self._eyes = self._body_eyes.get_a_value()
