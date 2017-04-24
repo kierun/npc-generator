@@ -1,6 +1,8 @@
 NPC Generator
 =============
 
+**This project is dead. I will create a new one in good time …**
+
 Introduction
 ------------
 
