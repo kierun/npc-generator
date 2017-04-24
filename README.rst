@@ -1,7 +1,8 @@
 NPC Generator
 =============
 
-**This project is dead. I will create a new one in good time …**
+**This project is dead. [Use NPCSeed](https://github.com/kierun/npcseed) instead.**
+
 
 Introduction
 ------------
